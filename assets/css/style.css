@@ -8,7 +8,7 @@ img {
     width: 200px;
 }
 
-.name {
+#name {
 	text-align: left;
 	color:black;
 	padding-top: 10px;
@@ -35,7 +35,8 @@ p {
 	height: 100px;
 	text-align: center;
 	font-size: 50px;
-    margin-right: 10px;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -62,7 +63,7 @@ p {
 
 
 .score {
-	font-size: 50;
+    font-size: 50;
 	width: 300px;
 	height: 100px;
 }
