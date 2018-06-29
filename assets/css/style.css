@@ -1,0 +1,68 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.square {
+    height: auto;
+    width: 200px;
+}
+
+.name {
+	text-align: left;
+	color:black;
+	padding-top: 10px;
+}
+
+p {
+	color: black;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.instructions {
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 125px;
+	margin-top: 10px;
+
+}
+
+.ranNumberDiv {
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+    margin-right: 10px;
+}
+
+
+.pointLevelDiv {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.score {
+	margin-left: 130px;
+	margin-top: -75px;
+	text-align: center;
+	width: 150px;
+	height: 70px;
+}
+
+.pointLevelDiv {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	width: 200px;
+	height: 45px;
+}
+
+
+.score {
+	font-size: 50;
+	width: 300px;
+	height: 100px;
+}

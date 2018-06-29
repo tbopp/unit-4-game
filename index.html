@@ -7,22 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-    <script src="/assets/javascript/game.js"></script>
+
 </head>
 
 <body>
     <div id="name"></div>
-    <div id="instructions"></div>
-    <div id="numberDisplay"></div><div id="scoreboard"></div>
-    <div id="crystalContainer">
+    <div class="instructions">
+        <h3>Game Instructions:</h3>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are five crystals shown below. Each crystal is worth a specific amount of points. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+        <p>The object of the game is to match your total score to the random number that is shown, winning the game. If your score goes above the random number, you will lose and the game will automatically reset.</p>
+        <h4>Hints:</h4>
+        <p>The value of each crystal is hidden from you until you click on the crystal.</p>
+        <p>The value of each crystal is automatically reset each time the game starts.</p>
+
+    </div>
+    
+    <div class="ranNumberDiv">
+        <div class="ranNumber"></div>
+    </div>
+    
+    <div class="scoreboard">
+        <p>Wins:<div id="wins"></div></p>
+        <p>Losses:<div id="losses"></div></p>
+    </div>
+
+    <div class="crystals">
         <table>
-            <tr><td><img src="./assets/images/Crystal_Blue.jpg"></td>
-            <td><img src="./assets/images/Crystal_Green.jpg"></td>
-            <td><img src="./assets/images/Crystal_Orange.jpg"></td>
-            <td><img src="./assets/images/Crystal_Purple.jpg"></td>
-            <td><img src="./assets/images/Crystal_Red.jpg"></td></tr>
+            <tr><td><img src="./assets/images/Crystal_Blue.jpg" class= "square" id="blue"></td>
+            <td><img src="./assets/images/Crystal_Green.jpg" class= "square" id="green"></td>
+            <td><img src="./assets/images/Crystal_Orange.jpg" class= "square" id="orange"></td>
+            <td><img src="./assets/images/Crystal_Purple.jpg" class= "square" id="purple"></td>
+            <td><img src="./assets/images/Crystal_Red.jpg" class= "square" id="red"></td></tr>
         </table>
     </div>
+
+    <div class="pointLevelDiv">
+            <h3>Crystal Point Level:</h3>
+        </div>
+    
+    <div class="score"></div>
 
 
     <script src="./assets/javascript/game.js"></script>
